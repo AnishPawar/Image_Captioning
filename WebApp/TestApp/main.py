@@ -1,5 +1,10 @@
 # Imports
-from flask import Flask,render_template
+from flask import Flask,render_template,request, redirect, url_for, Response
+
+from joblib import load
+from flask import send_file
+#import base64
+from io import BytesIO
 import os
 
 from tensorflow import keras
@@ -17,16 +22,7 @@ import time
 from process import encode,preprocess,beam_search_predictions
 
 
-
-
-app = Flask(__name__)
-
-def factors(num):
-  return [x for x in range (1, num+1) if num%x==0]
-  
-
-@app.route('/')
-def home():
+def getPredictions():
     image_path = "/Users/anishpawar/College_Stuff/TY_Online/Sem_V/DLFL/repo/DLFL_Miniproject/WebApp/TestApp/images/istockphoto-1252455620-170667a.jpg"
     img = plt.imread(image_path)
 
@@ -36,8 +32,21 @@ def home():
     caption = beam_search_predictions(encoded_image,max_length,ixtoword,wordtoix,caption_model, index = 3)
     diff = time.time() - start 
     print(caption,diff)
+
+app = Flask(__name__)
+
+  
+
+@app.route('/')
+def home():
+
     return render_template('StartPage.html')
 
+@app.route('/', methods=['POST'])
+def get_trends():
+    if request.method == 'POST':
+        # trends = gettrends()
+        return render_template('Image_Picker.html')
 
 
 

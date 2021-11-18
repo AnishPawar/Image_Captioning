@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="StartPage.css">
+        <!-- <link rel="stylesheet" type="text/css" href="StartPage.css"> -->
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/StartPage.css') }}">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     </head>
@@ -36,7 +38,15 @@
                         <h4>Dishant Padalia</h4>
                         <h4>Jatin Nainani</h4>
                         <hr>
-                        <a href="Image_Picker.html" class="btn btn-default btn-lg" id="start">Start!</a>
+                        <!-- <a href="Image_Picker.html" class="btn btn-default btn-lg" id="start">Start!</a> -->
+
+                        <div class="container">
+                            <form method="post">
+                            <!---form action = "http://127.0.0.1:5000/" method = "post"-->
+                            <button class="btn btn-default btn-lg" id="start">Start</button>
+                        </form>
+                        </div>
+
                     </div>
                 </div>
             </div>
