@@ -1,0 +1,16 @@
+body{
+    background: url("/Users/anishpawar/College_Stuff/TY_Online/Sem_V/DL&Fuzzy/WebApp/TestApp/Assets/26507.jpg");
+    background-size: cover;
+}
+#content {
+    text-align: center;
+    padding-top: 25%;
+}
+
+#start{
+    background-color: #30cf7f;
+}
+
+#start:hover{
+    box-shadow: gray;
+}
