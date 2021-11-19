@@ -1,6 +1,9 @@
 # Imports
 from flask import Flask,render_template,request, redirect, url_for, Response
 
+# from flask_ngrok import run_with_ngrok
+
+
 from joblib import load
 from flask import send_file
 #import base64
@@ -22,6 +25,7 @@ import time
 from process import encode,preprocess,beam_search_predictions
 
 
+
 def getPredictions():
     image_path = "/Users/anishpawar/College_Stuff/TY_Online/Sem_V/DLFL/repo/DLFL_Miniproject/WebApp/TestApp/images/istockphoto-1252455620-170667a.jpg"
     img = plt.imread(image_path)
@@ -39,16 +43,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-
+    getPredictions()
     return render_template('StartPage.html')
 
 @app.route('/', methods=['POST'])
 def get_trends():
     if request.method == 'POST':
-        # trends = gettrends()
         return render_template('Image_Picker.html')
-
-
 
 
 if __name__ == '__main__':
@@ -66,6 +67,5 @@ if __name__ == '__main__':
   max_length = 34
   vocab_size = 1652
   embedding_dim = 200
-
-  app.run(debug=True)
-
+#   run_with_ngrok(app)
+  app.run()
