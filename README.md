@@ -58,3 +58,8 @@ Mini Project for Deep Learning and Fuzzy Logic OET.
     - Run ```flutter run --release``` in the root directory of the project.
 
 
+## To Train from Scratch
+
+- [Drive Link](https://drive.google.com/drive/folders/1LAxCnp1wG3rR0314RrDvTUVb77PBEXrL?usp=sharing) for Training Folder and Datasets.
+- Open the above Drive link and then Add Shortcut to Drive.
+
