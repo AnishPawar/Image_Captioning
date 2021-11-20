@@ -25,7 +25,7 @@ Mini Project for Deep Learning and Fuzzy Logic OET.
 
 ## App Screenshots 
 
-<p float="center">
+<p float="left">
 <img src="Assets\cap1.PNG" width=207px height=368px/>
 <img src="Assets\cap2.jpeg" width=207px height=368px/>
 
