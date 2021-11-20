@@ -28,7 +28,9 @@ Mini Project for Deep Learning and Fuzzy Logic OET.
 <p float="left">
 <img src="Assets\cap1.PNG" width=207px height=368px/>
 <img src="Assets\cap2.jpeg" width=207px height=368px/>
+</p>
 
+<p float="left">
 <img src="Assets\cap3.jpg" width=207px height=400px/>
 <img src="Assets\cap4.jpg" width=207px height=400px/>
 </p>
