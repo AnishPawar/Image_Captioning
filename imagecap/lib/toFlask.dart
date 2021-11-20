@@ -4,8 +4,8 @@ import 'package:http/http.dart';
 import 'dart:convert';
 
 Future<dynamic> sendBackend(String imagePath) async {
-  var request = MultipartRequest(
-      'POST', Uri.parse('https://dlfl-captioning-image.herokuapp.com/api'));
+  var request =
+      MultipartRequest('POST', Uri.parse('http://127.0.0.1:5000/api'));
   request.files.add(
     await MultipartFile.fromPath(
       'images',
