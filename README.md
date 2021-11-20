@@ -39,4 +39,9 @@ Android:
 
 iOS:
 
-As we only have access to the free Heroku server plan, the process might be a bit slow and successively uploading many images will crash the server. 
+<h3><strong>Xcode Setup:</h3></strong>
+
+1. Open imagecap/ios/Runner.xcworkspace.
+2. Change the development team in Targets/Runner/Signing&Capabilities to your Apple ID.
+3. Add a unique Bundle identifier.
+4. Run `flutter run --release` in the root directory of the project.
