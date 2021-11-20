@@ -25,18 +25,20 @@ Mini Project for Deep Learning and Fuzzy Logic OET.
 
 ## App Screenshots 
 
-![App Screenshot 1](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot 1](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot 1](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot 1](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+<img src="Assets\cap1.PNG" width=414px height=736px/>
+<img src="Assets\cap2.jpeg" width=414px height=736px/>
+<img src="Assets\cap3.jpg" width=414px height=736px/>
+<img src="Assets\cap4.jpg" width=414px height=736px/>
+
 
 
 ## Installation
 
-Android:
-- Download the apk provided in the google drive link. And upload the input image. 
+- Android:
+    - Download the apk provided in the google drive link. And upload the input image. 
 
 
-iOS:
+- iOS:
 
 As we only have access to the free Heroku server plan, the process might be a bit slow and successively uploading many images will crash the server. 
