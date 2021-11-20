@@ -25,25 +25,34 @@ Mini Project for Deep Learning and Fuzzy Logic OET.
 
 ## App Screenshots 
 
+<p float="center">
+<img src="Assets\cap1.PNG" width=207px height=368px/>
+<img src="Assets\cap2.jpeg" width=207px height=368px/>
 
-<img src="Assets\cap1.PNG" width=414px height=736px/>
-<img src="Assets\cap2.jpeg" width=414px height=736px/>
-<img src="Assets\cap3.jpg" width=414px height=736px/>
-<img src="Assets\cap4.jpg" width=414px height=736px/>
-
+<img src="Assets\cap3.jpg" width=207px height=400px/>
+<img src="Assets\cap4.jpg" width=207px height=400px/>
+</p>
 
 
 ## Installation
 
-- Android:
-    - Download the apk provided in the google drive link. And upload the input image. 
+<h3>Android:</h3>
+
+- <h4>Download the apk provided in the google drive link. And upload the input image.</h4>
+
+- [Download Link](https://drive.google.com/file/d/1TjU6yI9xHv70gChP_ruScsXuZR-_c-kj/view?usp=sharing)
 
 
-- iOS:
+<h3>iOS: </h3>
 
-<h3><strong>Xcode Setup:</h3></strong>
+- <h4>Xcode Setup:</h4>
 
-1. Open imagecap/ios/Runner.xcworkspace.
-2. Change the development team in Targets/Runner/Signing&Capabilities to your Apple ID.
-3. Add a unique Bundle identifier.
-4. Run `flutter run --release` in the root directory of the project.
+    1. Open imagecap/ios/Runner.xcworkspace.
+    2. Change the development team in Targets/Runner/Signing&Capabilities to your Apple ID.
+    3. Add a unique Bundle identifier.
+
+- <h4>Flutter Setup:</h4>
+
+    - Run ```flutter run --release``` in the root directory of the project.
+
+
