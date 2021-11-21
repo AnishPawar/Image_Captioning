@@ -40,7 +40,9 @@ Mini Project for Deep Learning and Fuzzy Logic OET.
 
 <h3>Android:</h3>
 
-- <h4>Download the apk provided in the google drive link. And upload the input image.</h4>
+- <h4>Download the apk provided in the google drive link.</h4>
+- <h4>Allow installation from unknown sources.</h4>
+- <h4>Run the app.</h4>
 
 - [Download Link](https://drive.google.com/file/d/1TjU6yI9xHv70gChP_ruScsXuZR-_c-kj/view?usp=sharing)
 
@@ -56,6 +58,7 @@ Mini Project for Deep Learning and Fuzzy Logic OET.
 - <h4>Flutter Setup:</h4>
 
     - Run ```flutter run --release``` in the root directory of the project.
+    - Trust your developer profile on the iOS Device and run the app.
 
 
 ## To Train from Scratch
